@@ -126,8 +126,7 @@ def syncUser():
 
 
 def openai_login():
-    openai_token = os.environ['TOKEN']
-    openai_api_key = os.environ.get('OPENAI_API_KEY', openai_token)
+    openai_api_key = os.environ['TOKEN']
     llm = OpenAI(model_name='text-davinci-003', openai_api_key=openai_api_key)
     return llm
 
