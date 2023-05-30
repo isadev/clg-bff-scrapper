@@ -1,0 +1,8 @@
+Flask==2.3.2
+url-normalize==1.4.3
+urllib3==1.26.10
+langchain==0.0.149
+colorama==0.4.5
+beautifulsoup4==4.12.2
+bs4==0.0.1
+openai==0.27.7
